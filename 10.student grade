@@ -1,0 +1,17 @@
+input.netpay = input.grosspay - input.basicpay / 100 * input.tax - input.basicpay / 100 * input.PF;
+if(sum <= 100 && sum >= 90)
+{
+	input.grade = "A";
+}
+else if(sum <= 90 && sum >= 80)
+{
+	input.grade = "B";
+}
+else if(sum <= 80 && sum >= 60)
+{
+	input.grade = "C";
+}
+else
+{
+	input.grade = "F";
+}
