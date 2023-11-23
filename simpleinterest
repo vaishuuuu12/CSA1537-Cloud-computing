@@ -1,0 +1,1 @@
+input.simpleinterest_amount = (input.principle * input.time * input.rateofinterest) / 100;
