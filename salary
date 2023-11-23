@@ -1,0 +1,2 @@
+input.grosspay = input.basicpay + input.basicpay / 100 * input.DA + input.basicpay / 100 * input.HRA + input.basicpay / 100 * input.CCA;
+input.netpay = input.grosspay - input.basicpay / 100 * input.tax - input.basicpay / 100 * input.PF;
